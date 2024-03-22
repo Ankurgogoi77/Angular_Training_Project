@@ -1,0 +1,13 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-spacer{
+    margin-right: 50px;
+}
+.active-link{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}

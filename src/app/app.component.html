@@ -1,0 +1,14 @@
+
+<mat-toolbar color = "primary">
+  <span style="margin-right: 400px">
+    <i>Ng-Shopping</i>
+  </span>
+
+  <a routerLink="/home" class="menu-spacer" routerLinkActive="active-link">Home</a>
+  <a routerLink="/register" class="menu-spacer" routerLinkActive="active-link" *ngIf="!isAdminLoggedIn">Register</a>
+  <a routerLink="/dashboard" class="menu-spacer" routerLinkActive="active-link" *ngIf="isAdminLoggedIn">Dashboard</a>
+  <a routerLink="/login" class="menu-spacer" routerLinkActive="active-link" *ngIf="!isAdminLoggedIn">Login</a>
+  <a routerLink="/logout" class="menu-spacer" routerLinkActive="active-link" *ngIf="isAdminLoggedIn">Logout</a>
+</mat-toolbar>
+<br>
+<router-outlet></router-outlet>

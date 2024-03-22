@@ -1,0 +1,13 @@
+.content{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full-width{
+    width:100%;
+}
+.div-reg{
+    padding-top:10px;
+}
+

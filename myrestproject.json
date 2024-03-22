@@ -1,0 +1,28 @@
+{
+  "wsproducts": [
+    {
+      "id": 1,
+      "name": "Narzo 53",
+      "price": 10000,
+      "description": "Realme Flagship Phone"
+    },
+    {
+      "id": 2,
+      "name": "Nothing 2",
+      "price": 54000,
+      "description": "Nothing's second phone "
+    },
+    {
+      "id": 3,
+      "name": "Noise 2",
+      "price": 1349,
+      "description": "Smartwatch with best features"
+    }
+  ],
+  "wsusers": [
+    {
+      "id": 1,
+      "name": "Apple"
+    }
+  ]
+}

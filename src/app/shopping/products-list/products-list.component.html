@@ -1,0 +1,17 @@
+<p>products-list works!</p>
+@for(product of productsList; track product.id){
+
+<mat-card style="margin: 10px">
+  <mat-card-header>
+    <h2>{{ product.name }}</h2>
+  </mat-card-header>
+  <mat-card-content>
+    Price: {{ product.price | currency: "INR" }} <br>
+    Description: {{ product.description }}
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="accent" (click)="addToCart(product)">Add to Card</button>
+  </mat-card-actions>
+</mat-card>
+
+}
